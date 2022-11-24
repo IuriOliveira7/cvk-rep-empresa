@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+  margin: 0;
+}
+
+.linha{
+  width: 100%;
+  height: 10px;
+  background-image: linear-gradient(to right, #065d77, rgb(85, 201, 255));
+}
+
+.espaco{
+  margin-top: 155px;
+}
+
+.divIframe {
+  width: 100%;
+  min-height: 0px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#ctituloweg{
+  font-size: 1.8rem;
+}
+
+
+
+/*slider*/
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+
+
+
+
+
+
+
+
+/*Menu*/
+#hr{
+  height: 14px;
+  border: 0.1px solid #b1b1b1;
+  margin-top: 15px;
+}
+
+#nav-linka  {
+  color: #0091bd;
+}
+
+#nav-linka:hover {
+  color: #303030;
+}
+
+.navbar-brand img{
+  height: 43px;
+}
+
+#containermenu{
+  margin-top: 0px
+}
+
+
+
+
+
+
+
+
+/*buttom-slide*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #0081d6;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: -4px;
+  padding: 1px;
+  width: 134px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SOBRE*/
+
+.ctitulo{
+  text-align: center;
+  color: #0081d6;
+}
+
+
+/*SOBRE 2.0*/
+.sectionsobre{
+  width: 100%;
+  min-height: 65vh;
+  background-image: url("../img/capa.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: #065d77;
+}
+
+
+.containersobre{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+}
+.image-section img{
+  width: 124%;
+  height: auto;
+  margin-top: 4px;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+  color: #FFFFFF;
+}
+.content-section .content h3{
+	margin-top: 20px;
+	color:#5d5d5d;
+	font-size: 21px;
+}
+.content-section .content p{
+  margin-top: 43px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+}
+.content-section .content .buttonsobre{
+	margin-top: 30px;
+}
+.content-section .content .buttonsobre a{
+	background-color: #0081d6;
+	padding:12px 40px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.content-section .content .buttonsobre a:hover{
+	background-color: #0081d6;
+	color:#fff;
+}
+@media screen and (max-width: 1024px){
+
+  .sectionsobre {
+    width: 100%;
+    min-height: 82vh;
+    background-image: url("../img/capa.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: #065d77;
+    
+  }
+  .image-section img{
+    width: 125%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 111px;
+  }
+  }
+
+
+@media screen and (max-width: 768px){
+	.containersobre{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+}
+.image-section{
+	float:none;
+	width:100%;
+	
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:auto;
+  margin-top: 33px;
+}
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+.content-section .content .buttonsobre{
+	text-align: center;
+}
+.content-section .content .button a{
+	padding:9px 30px;
+}
+
+.content-section .content p {
+  margin-top: 43px;
+  font-size: 11px;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+}
+
+.content-section .content .buttonsobre a {
+  background-color: #0081d6;
+  padding: 12px 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+
+.sectionsobre {
+  width: 100%;
+  min-height: 82vh;
+  background-image: url("../img/capa.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: #065d77;
+  
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contatos*/
+
+.card {
+  position: inherit;
+}
+
+
+main.cards {
+  display: flex;
+  padding: 32px;
+  justify-content: center;
+}
+
+main.cards section.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  max-height: 468px;
+  margin-left: 32px;
+}
+
+main.cards section.card:first-child {
+  margin-left: 0;
+}
+
+main.cards section.card .icon {
+  width: 64px;
+  height: 64px;
+}
+
+main.cards section.card img {
+  width: 100%;
+}
+
+main.cards section.card h3 {
+  font-size: 100%;
+  margin: 7px 0;
+}
+
+main.cards section.card p {
+  font-size: 100%;
+}
+
+main.cards section.card span {
+  font-weight: 300;
+  max-width: 240px;
+  font-size: 80%;
+  margin-bottom: 16px;
+}
+
+main.cards section.card button {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: 0;
+  cursor: pointer;
+  font-size: 80%;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 16px 0;
+}
+
+
+main.cards section.card.contato button {
+  background: linear-gradient(to right, #3E8AFF, #0B3A8A);
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+  main.cards {
+      flex-direction: column;
+  }
+
+  main.cards section.card {
+      margin-left: 0;
+      margin-bottom: 32px;
+  }
+
+  main.cards section.card:last-child {
+      margin-bottom: 0;
+  }
+
+  main.cards section.card button {
+      font-size: 70%;
+  }
+
+}
+
+
+main.cards section.card a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Parceiros*/
+
+.wrapperP {
+  width: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sliderP {
+  width: 1000px;
+  height: 100px;
+  position: relative;
+  background: white;
+
+  display: flex;
+  overflow: hidden;
+}
+.slideP {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  animation: slideshow 37s linear infinite;
+}
+.slideP img {
+  height: 50px;
+  padding: 0 30px 0 30px;
+}
+@keyframes slideshow {
+  0% {transform: translateX(0);}
+  100% {transform: translateX(-100%);}
+}
+.sliderP::before, .sliderP::after {
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, white 0%, rgba(255,255,255,0) 10%);
+  z-index: 2;
+}
+.sliderP::before {
+  left: 0;
+  top: 0;
+}
+.sliderP::after {
+  right:0;
+  top:0;
+  transform: rotateZ(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Rodape */
+.rodape{
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background: #0B3A8A;
+  width: 100%;
+  padding-top: 14px;
+  color: #fff;
+}
+
+
+
+.rodape p {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  margin-top: -8px;
+  padding-bottom: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 988px) {
+
+  #hr{
+    height: 0;
+    border: 0px solid #b1b1b1;
+    margin-top: 0;
+  }
+
+  #nav-linka  {
+    text-align: center;
+  }
+  
+
+}
